@@ -1,0 +1,17 @@
+/*form styles*/
+fieldset {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;;
+}
+form {
+color: chartreuse;
+font-family: Georgia, 'Times New Roman', Times, serif;
+letter-spacing: 1px;
+}
+form div {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+}

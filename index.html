@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-mail Form</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/f/mwkwdkkk" method="POST">
+        <fieldset>
+        <label for="name">Name</label>
+        <input required id="name" type="text" name="name" placeholder="Type your full name here.">
+        <label for="email">E-mail</label>
+        <input required type="email" name="email" placeholder="type your e-mail here">
+        <label for="message">Message</label>
+        <textarea required id="message" name="message" placeholder="What's up?" maxlength="200" autofocus= "on"></textarea>
+    </fieldset>
+        <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+        </div>
+    </form>
+</body>
+
+</html>
